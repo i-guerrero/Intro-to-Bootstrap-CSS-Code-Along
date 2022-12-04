@@ -13,10 +13,12 @@
   font-size: 3em;
 }
 
-nav {
-  display: none;
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-img {
-  width: 100px;
-}
+/* body {
+  background-color: rgb(255, 240, 249);
+} */
